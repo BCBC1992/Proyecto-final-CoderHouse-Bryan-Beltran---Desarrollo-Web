@@ -1,0 +1,110 @@
+:root{
+    color: #6c8276;
+    color: #b2c7b6;
+    color: #243432;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 80px; 
+}
+p{
+    font-size: 18px;
+    color: black;
+    line-height: 1.8;
+}
+section{
+    padding: 120px 0px;
+}
+
+.bg-light-gris{
+    background-color: gray;
+}
+.topmargin-sm {margin-top: 30px; }
+
+.navbar{
+    background-color: #6c8276   ;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    min-height: 100px;
+}
+.nav-link{
+    color: black;
+}
+.nav-link:hover{
+    color: black;
+}
+.logo-brand{
+    width: 140px;
+    height: 140px;
+    min-width: 120px;
+    min-width: 120px;
+}
+.navbar-toggler{
+    font-size: 40px;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+#carousel{
+    background-image: url(../img/home.png);
+    background-size: cover;
+    padding-top: 90px;
+    min-height: 700px;
+}
+#portafolio{
+    background-color: #b2c7b6;
+}
+.portafolio-container{
+    position: relative;
+    overflow: hidden;
+    margin: 10px 0px;
+    border-radius: 3px;
+}
+.portafolio-container img{
+    transition: all  0.8ms;
+}
+.portafolio-container:hover img{
+    transform: scale(1.2);
+}
+#equipo{
+    background-color: #b2c7b6;
+}
+#footer{
+    padding: 80px 0px;
+    text-align: center;
+    color: white;
+    background-color: #243432;
+}
+#footer a{
+    color: white;
+}
+
+#footer a:hover{
+    color: white;
+}
+
+#footer .list-inline .list-inline-item{
+    padding: 10px 15px;
+}
+#contact{
+    margin: 90px;
+}
+#collage{
+    margin: 90px;
+}
+#folleto{
+    background-color: #b2c7b6;
+}
+#nuestroPeronal{
+    background-color: #b2c7b6;
+}
+#contact{
+    background-color: #b2c7b6;
+}
+.tiendaValere{
+    background-color: #b2c7b6;
+}
